@@ -15,6 +15,11 @@ Test Accuracy: 0.9553 | F1 Score: 0.9626
 <img src='results/cm_vgg16_fc_only.png'>
 <img src='results/curves_vgg16_fc_only.png'>
 
+## Predictions
+<img src='results/pred_vgg16_fc_only.png'/>
+
+---
+
 
 # Task 1 - B: Fine Tune only FC Layers of ResNet18
 In this task FC layers are replaced with 2 custom layers and all feature layers are freezed then trained model on given dataset.
@@ -26,6 +31,10 @@ Test Accuracy: 0.9360 | F1 Score: 0.9470
 <img src='results/cm_resnet18_fc_only.png'>
 <img src='results/curves_resnet18_fc_only.png'>
 
+## Predictions
+<img src='results/pred_resnet18_fc_only.png'/>
+
+---
 # Task 2 - A: Fine Tune entire VGG16
 In this task FC layers are replaced with 2 custom layers and all feature layers are unfreezed then trained model on given dataset.
 ```
@@ -36,6 +45,11 @@ Test Accuracy: 0.9793 | F1 Score: 0.9825
 <img src='results/cm_vgg16_entire.png'>
 <img src='results/curves_vgg16_entire.png'>
 
+## Predictions
+<img src='results/pred_vgg16_entire.png'/>
+
+---
+
 # Task 2 - B: Fine Tune entire ResNet18
 In this task FC layers are replaced with 2 custom layers and all feature layers are unfreezed then trained model on given dataset.
 ```
@@ -45,6 +59,11 @@ Test Accuracy: 0.9713 | F1 Score: 0.9759
 ```
 <img src='results/cm_resnet18_entire.png'>
 <img src='results/curves_resnet18_entire.png'>
+
+## Predictions
+<img src='results/pred_resnet18_entire.png'/>
+
+---
 
 # Trained Models 
 Weights of trained models can be found [here](https://drive.google.com/drive/folders/1wUg1gCygCSDe23Gnr8DKXVBpzHwPYACF?usp=sharing)

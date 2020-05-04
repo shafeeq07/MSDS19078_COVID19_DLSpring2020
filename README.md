@@ -98,7 +98,6 @@ Seperate confusion matrices are display for each class.
 2. For Normal class, 3913 samples were predicted correct.
 3. For Pneumonia class, 2120 samples were predicted corrrect.
 <img src='results/cm_train_vgg16_ce.png'>
-*1-1 means sample belongs to given class, 0-0 means sample belongs to other classes.
 ### Validation Confusion Matrix
 Seperate confusion matrices are display for each class.
 1. For COVID-19 class 22 samples were predicted correct.
@@ -124,7 +123,6 @@ Seperate confusion matrices are display for each class.
 2. For Normal class, 3948 samples were predicted correct.
 3. For Pneumonia class, 2101 samples were predicted corrrect.
 <img src='results/cm_train_res18_ce.png'>
-*1-1 means sample belongs to given class, 0-0 means sample belongs to other classes.
 ### Validation Confusion Matrix
 Seperate confusion matrices are display for each class.
 1. For COVID-19 class 22 samples were predicted correct.
@@ -153,7 +151,6 @@ Seperate confusion matrices are display for each class.
 2. For Normal class, 3879 samples were predicted correct.
 3. For Pneumonia class, 2079 samples were predicted corrrect.
 <img src='results/cm_train_vgg16_fl.png'>
-*1-1 means sample belongs to given class, 0-0 means sample belongs to other classes.
 ### Validation Confusion Matrix
 Seperate confusion matrices are display for each class.
 1. For COVID-19 class 18 samples were predicted correct.
@@ -179,7 +176,6 @@ Seperate confusion matrices are display for each class.
 2. For Normal class, 3940 samples were predicted correct.
 3. For Pneumonia class, 2032 samples were predicted corrrect.
 <img src='results/cm_train_res18_fl.png'>
-*1-1 means sample belongs to given class, 0-0 means sample belongs to other classes.
 ### Validation Confusion Matrix
 Seperate confusion matrices are display for each class.
 1. For COVID-19 class 22 samples were predicted correct.
